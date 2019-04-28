@@ -2,9 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import WebWork from "../components/webWork"
+import WorkText from "../components/workText"
 import SEO from "../components/seo"
 
 import indexStyle from "./index.module.css"
+
+import image1 from "../images/work1_0.png"
+import image2 from "../images/work1_1.png"
 
 const IndexPage = () => (
   <Layout>
@@ -21,7 +26,10 @@ const IndexPage = () => (
       <h1>Section 2</h1>
     </section>
     <section className="third">
-      <h1>Section 3</h1>
+      <div className={indexStyle.workContainer}>
+        <WorkText title="Dormy" description="Dormy, a website where students can easily rent a dorm and loaners can put their dorms for rent. This project was built using NodeJs and firebase."/>
+        <WebWork image1={image1} image2={image2}/>
+      </div>
     </section>
   </Layout>
 )

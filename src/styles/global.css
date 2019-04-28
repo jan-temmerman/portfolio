@@ -4,18 +4,19 @@ body {
     margin: 0;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    scroll-padding-top: 7vh;
+    scroll-padding-top: 80px;
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
 
 section {
-    padding: 10vh 5vw 10vh 5vw;
+    padding: 5vh 5vw 10vh 5vw;
     height: 80vh;
     scroll-snap-align: start;
 }
 
 .first {
+    margin-top: 80px;
     background-color: black;
 }
 

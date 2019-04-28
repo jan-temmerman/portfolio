@@ -13,9 +13,16 @@
 }
 
 .container {
-    margin-top: 22vh;
+    margin-top: 20vh;
     align-self: center;
     text-align: center;
+}
+
+.workContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .button {
@@ -38,7 +45,7 @@
 .arrow {
     margin: 30vh auto;
     width: 100px;
-    height: 50px;
+    height: 52px;
     background-size: cover;
     background-image: url("../images/arrow.png");
     background-repeat: no-repeat;
