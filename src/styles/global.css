@@ -29,6 +29,11 @@ section {
     background-color: black;
 }
 
+.fourth {
+    background-color: white;
+    color: black;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         scroll-snap-type: none;
