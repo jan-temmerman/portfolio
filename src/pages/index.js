@@ -14,6 +14,7 @@ const IndexPage = () => (
         <h1 className={indexStyle.greet}>New Media Developer</h1>
         <p className={indexStyle.intro}>I love solving problems. Can I help you make digital products?</p>
         <Link className={indexStyle.button} to="/">Contact me</Link>
+        <div className={indexStyle.arrow}></div>
       </div>
     </section>
     <section className="second">
