@@ -1,0 +1,39 @@
+.container {
+    z-index: 1;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0vw 10vw 0vw 10vw;
+}
+
+.linkContainer {
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.link:hover {
+    color: rgb(124, 124, 124);
+}
+
+.logo {
+    align-self: center;
+    margin: 10px 6% 10px 6%;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
