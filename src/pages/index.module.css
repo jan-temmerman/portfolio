@@ -145,8 +145,6 @@
         flex-wrap: wrap;
     }
 
-   }
-
    .buttonWhite {
     padding: 10px 12px;
     text-decoration: none;
@@ -158,16 +156,17 @@
     font-family: 'Roboto', sans-serif;
     transition: all 0.4s;
     width: 110px;
-}
+    }
 
-.buttonBlack {
-    font-size: 12px;
-    padding: 10px 12px;
-    width: 84px;
-}
+    .buttonBlack {
+        font-size: 12px;
+        padding: 10px 12px;
+        width: 84px;
+    }
 
-.buttonWhite {
-    font-size: 12px;
-    padding: 10px 12px;
-    width: 84px;
+    .buttonWhite {
+        font-size: 12px;
+        padding: 10px 12px;
+        width: 84px;
+    }
 }
