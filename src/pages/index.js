@@ -16,12 +16,12 @@ import parkspot from "../images/work3_0.png"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`jan temmerman`, `portfolio`, `index`]} />
     <section className="first">
       <div className={indexStyle.container}>
         <h1 className={indexStyle.greet}>New Media Developer</h1>
         <p className={indexStyle.intro}>I love solving problems. Can I help you make digital products?</p>
-        <Link className={indexStyle.buttonWhite} to="/">Contact me</Link>
+        <Link className={indexStyle.buttonWhite} to="/contact">Contact me</Link>
         <div className={indexStyle.arrow}></div>
       </div>
     </section>

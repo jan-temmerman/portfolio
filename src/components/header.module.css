@@ -24,11 +24,16 @@
     padding: 10px;
     font-size: 20px;
     font-weight: 300;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 0px;
     transition: all 0.2s;
 }
 
 .link:hover {
-    color: rgb(124, 124, 124);
+    border-color: white;
+    border-style: solid;
+    border-width: 1px 0px;
 }
 
 .logo {
