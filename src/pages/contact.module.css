@@ -6,10 +6,10 @@
 }
 
 .intro {
-    font-weight: 400;
+    font-weight: 100;
     font-family: 'Roboto', sans-serif;
     color: rgb(185, 185, 185);
-    margin-bottom: 60px;
+    margin: 0px 25vw 30px 25vw;
 }
 
 .container {
@@ -21,6 +21,31 @@
     -ms-animation: fadein 2s; /* Internet Explorer */
     -o-animation: fadein 2s; /* Opera < 12.1 */
     animation: fadein 2s;
+}
+
+.contact {
+    border-color: white;
+    border-style: solid;
+    border-width: 0px 0px 0px 1px;
+    margin: -1px;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.2); 
 }
 
 @keyframes fadein {
@@ -137,4 +162,19 @@
         width: 40px;
         height: 20px;
     }
-   }
+    .greet {
+        font-size: 10vw;
+    }
+
+    .container {
+        margin-top: 4vh;
+    }
+
+    .intro {
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        color: rgb(185, 185, 185);
+        margin: 0px 2vw 30px 2vw;
+    }
+}

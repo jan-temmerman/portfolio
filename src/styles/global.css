@@ -15,6 +15,16 @@ section {
     scroll-snap-align: start;
 }
 
+table {
+    margin: auto;
+    align-self: center;
+  }
+
+td {
+    text-align: left;
+    padding: 10px;
+  }
+
 .first {
     margin-top: 80px;
     background-color: black;
