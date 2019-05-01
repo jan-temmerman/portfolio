@@ -26,6 +26,7 @@ function SEO({ description, lang, meta, keywords, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const author = site.siteMetadata.author 
 
   return (
     <Helmet
@@ -37,7 +38,7 @@ function SEO({ description, lang, meta, keywords, title }) {
       meta={[
         {
           name="google-site-verification",
-          content="tp8GPGYtzFXmZELkekHvCbAahcb73axhg_9MR-XCBYE" 
+          content="tp8GPGYtzFXmZELkekHvCbAahcb73axhg_9MR-XCBYE",
         },
         {
           name: `description`,
@@ -61,7 +62,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: author,
         },
         {
           name: `twitter:title`,
