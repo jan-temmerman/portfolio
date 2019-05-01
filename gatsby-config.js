@@ -4,8 +4,6 @@ module.exports = {
     title: `Jan Temmerman`,
     description: `Portfolio website of Jan Temmerman`,
     author: `@jantemmerman`,
-  },
-  siteMetadata: {
     siteUrl: `https://www.jantemmerman.ga`,
   },
   plugins: [`gatsby-plugin-sitemap`],
