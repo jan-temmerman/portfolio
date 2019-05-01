@@ -96,7 +96,7 @@
 }
 
 .arrow {
-    margin: 30vh auto;
+    margin: 30vh auto 5vh auto;
     width: 100px;
     height: 52px;
     background-size: cover;

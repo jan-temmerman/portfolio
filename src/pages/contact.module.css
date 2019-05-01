@@ -13,7 +13,6 @@
 }
 
 .container {
-    margin-top: 20vh;
     align-self: center;
     text-align: center;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -42,6 +41,18 @@
     width: 50px;
     margin: 10px;
     transition: all .2s ease-in-out;
+}
+.profilepic {
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+    border-radius: 100px;
+    background-image: url("../images/me.png");
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
 }
 
 .icon:hover {

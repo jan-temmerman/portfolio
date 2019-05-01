@@ -25,6 +25,7 @@ const IndexPage = () => (
         <div className={indexStyle.arrow}></div>
       </div>
     </section>
+    
     <section className="second">
       <div className={indexStyle.workContainer}>
         <WorkText 
@@ -40,6 +41,7 @@ const IndexPage = () => (
         <WebWork image1={moodify1} image2={moodify2}/>
       </div>
     </section>
+
     <section className="third">
       <div className={indexStyle.workContainer}>
         <WorkText 
@@ -52,6 +54,7 @@ const IndexPage = () => (
         <WebWork image1={dormy1} image2={dormy2}/>
       </div>
     </section>
+
     <section className="fourth">
       <div className={indexStyle.workContainer}>
         <WorkText 

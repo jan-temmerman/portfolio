@@ -4,14 +4,14 @@ body {
     margin: 0;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    scroll-padding-top: 80px;
+    scroll-padding-top: 8vh;
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
 
 section {
-    padding: 5vh 5vw 10vh 5vw;
-    height: 80vh;
+    padding: 5vh 5vw 0vh 5vw;
+    min-height: 92vh;
     scroll-snap-align: start;
 }
 
@@ -25,8 +25,16 @@ td {
     padding: 10px;
   }
 
+.centered {
+    margin-top: 3vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .first {
-    margin-top: 80px;
+    margin-top: 8vh;
     background-color: black;
 }
 

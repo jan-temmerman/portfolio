@@ -1,6 +1,7 @@
 .container {
     z-index: 1;
-    height: 80px;
+    min-height: 70px;
+    height: 8vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,21 +27,39 @@
     font-weight: 300;
     border-color: black;
     border-style: solid;
-    border-width: 1px 0px;
+    border-width: 0px 0px 1px 0px;
     transition: all 0.2s;
 }
 
 .link:hover {
     border-color: white;
     border-style: solid;
-    border-width: 1px 0px;
+    border-width: 0px 0px 1px 0px;
+}
+
+.linklogo {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+}
+
+.logo:hover {
+    border-color: white;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
 }
 
 .logo {
+    padding: 10px;
     align-self: center;
     font-weight: 900;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    transition: all 0.2s;
 }
 
 @media only screen and (max-width: 600px) {
