@@ -13,6 +13,7 @@
 }
 
 .container {
+    padding-bottom: 5vh;
     align-self: center;
     text-align: center;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -175,10 +176,6 @@
     }
     .greet {
         font-size: 10vw;
-    }
-
-    .container {
-        margin-top: 4vh;
     }
 
     .intro {

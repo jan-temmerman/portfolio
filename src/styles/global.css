@@ -11,7 +11,7 @@ body {
 
 section {
     padding: 5vh 5vw 0vh 5vw;
-    min-height: 92vh;
+    min-height: 93vh;
     scroll-snap-align: start;
 }
 
@@ -26,7 +26,7 @@ td {
   }
 
 .centered {
-    margin-top: 3vh;
+    padding-top: 8vh;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ td {
 }
 
 .first {
-    margin-top: 8vh;
+    padding-top: 8vh;
     background-color: black;
 }
 
