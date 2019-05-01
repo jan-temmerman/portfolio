@@ -35,9 +35,9 @@ function SEO({ description, lang, meta, keywords, title }) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
-        { 
-          name: 'google-site-verification', 
-          content: 'tp8GPGYtzFXmZELkekHvCbAahcb73axhg_9MR-XCBYE' 
+        {
+          name="google-site-verification",
+          content="tp8GPGYtzFXmZELkekHvCbAahcb73axhg_9MR-XCBYE" 
         },
         {
           name: `description`,
@@ -45,7 +45,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: site.siteMetadata.title,
         },
         {
           property: `og:description`,
@@ -65,7 +65,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: site.siteMetadata.title,
         },
         {
           name: `twitter:description`,
