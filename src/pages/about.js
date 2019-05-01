@@ -9,7 +9,7 @@ import linkedin from "../images/linkedin.png"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="About" keywords={[`Jan Temmerman`, `portfolio`, `about`]} />
+    <SEO title="About" keywords={[`Jan Temmerman`, `portfolio`, `about`]} description="Portfolio website of jan temmerman, about"/>
     <section className="centered">
         <div className={contactStyle.container}>
             <h1 className={contactStyle.greet}>About Me</h1>

@@ -5,6 +5,10 @@ module.exports = {
     description: `Portfolio website of Jan Temmerman`,
     author: `@jantemmerman`,
   },
+  siteMetadata: {
+    siteUrl: `https://www.jantemmerman.ga`,
+  },
+  plugins: [`gatsby-plugin-sitemap`],
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,

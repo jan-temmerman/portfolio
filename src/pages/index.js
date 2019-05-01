@@ -16,7 +16,7 @@ import parkspot from "../images/work3_0.png"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`jan temmerman`, `portfolio`, `index`]} />
+    <SEO title="Home" keywords={[`jan temmerman`, `portfolio`, `index`]} description="Portfolio website of jan temmerman, homepage"/>
     <section className="first">
       <div className={indexStyle.container}>
         <h1 className={indexStyle.greet}>New Media Developer</h1>

@@ -11,7 +11,7 @@ import facebook from "../images/facebook.png"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Contact" keywords={[`Jan Temmerman`, `portfolio`, `contact`]} />
+    <SEO title="Contact" keywords={[`Jan Temmerman`, `portfolio`, `contact`]} description="Portfolio website of jan temmerman, contact"/>
     <section className="centered">
       <div className={contactStyle.container}>
         <h1 className={contactStyle.greet}>Contact</h1>
