@@ -31,7 +31,7 @@ const IndexPage = () => (
         <WorkText 
         title="Moodify" 
         intro="For our Mobile Development class we needed to make a mood app. 
-        Me and my group wanted to make a mood app that's different fom others, so we started brainstorming."
+        Me and my group wanted to make a mood app that's different from others, so we started brainstorming."
         description="Eventually we came up with our main feature: A map that saves where you felt what mood. 
         You can then look back at your map and look where you felt the happiest and the worst."
         tech="Made using React Native and Firebase."

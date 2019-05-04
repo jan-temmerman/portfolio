@@ -13,8 +13,8 @@ const IndexPage = () => (
     <section className="centered">
         <div className={contactStyle.container}>
             <h1 className={contactStyle.greet}>About Me</h1>
-            <p className={contactStyle.intro}>Hi i'm Jan Temmerman! 
-                I'm currently a student at Artevelde Hogeschool where i study New Media Development. 
+            <p className={contactStyle.intro}>Hi I'm Jan Temmerman! 
+                I'm currently a student at Artevelde Hogeschool where I study New Media Development. 
                 In my free time, I like to workout, do badminton, play videogames or work on my own projects.
             </p>
             <div className={contactStyle.profilepic} ></div>
