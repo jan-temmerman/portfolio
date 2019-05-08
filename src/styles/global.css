@@ -56,4 +56,12 @@ td {
     body {
         scroll-snap-type: none;
     }
+
+    .centered {
+        padding-top: 10vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }
