@@ -12,7 +12,8 @@ import dormy1 from "../images/work1_0.png"
 import dormy2 from "../images/work1_1.png"
 import moodify1 from "../images/work2_1.png"
 import moodify2 from "../images/work2_0.png"
-import parkspot from "../images/work3_0.png"
+import parkspot1 from "../images/work3_0.png"
+import parkspot2 from "../images/work3_1.png"
 
 const IndexPage = () => (
   <Layout>
@@ -20,13 +21,16 @@ const IndexPage = () => (
     <section className="first">
       <div className={indexStyle.container}>
         <h1 className={indexStyle.greet}>New Media Developer</h1>
-        <p className={indexStyle.intro}>I love solving problems. Can I help you make digital products?</p>
+        <div className={indexStyle.intro}>
+        <p>From design to development and everything inbetween. </p>
+        <p>I've got you covered.</p>
+        </div>
         <Link className={indexStyle.buttonWhite} to="/contact">Contact me</Link>
-        <div className={indexStyle.arrow}></div>
+        <a className={indexStyle.arrowAnimation}href="#second_section"><div className={indexStyle.arrow}></div></a>
       </div>
     </section>
     
-    <section className="second">
+    <section id="second_section" className="second">
       <div className={indexStyle.workContainer}>
         <WorkText 
         title="Moodify" 
@@ -63,10 +67,10 @@ const IndexPage = () => (
         I'm one of the 3 students that represents Ghent and we're currently working on an app that guides you to a parking spot of your preference."
         description="First you enter your destination. Then you apply the filters you want: free parking, outside LEZ, edge of the city, etc. 
         The app then gives you the available options for your liking. If you chose a parking spot that's not close enough to your destination to walk, there will be suggestions like busses or trams."
-        tech="This project is being built using React Native, Firebase and open data."
+        tech="This project is being built using React Native, MongoDB and open data."
         btnStyle={indexStyle.buttonBlack}
         github="https://github.com/parkspot/parkspot-3"/>
-        <WebWork image1={parkspot} image2={"/"}/>
+        <WebWork image1={parkspot1} image2={parkspot2}/>
       </div>
     </section>
   </Layout>

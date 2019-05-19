@@ -15,7 +15,7 @@ const IndexPage = () => (
     <section className="centered">
       <div className={contactStyle.container}>
         <h1 className={contactStyle.greet}>Contact</h1>
-        <p className={contactStyle.intro}>Feel free to send me a mail, message me on Facebook or check my projects on Github!</p>
+        <p className={contactStyle.intro}>Feel free to send me a mail, message me on Facebook or check out my projects on Github!</p>
         <table>
             <tr>
                 <td>Mail</td>
