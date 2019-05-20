@@ -23,7 +23,6 @@ const IndexPage = () => (
         <h1 className={indexStyle.greet}>New Media Developer</h1>
         <div className={indexStyle.intro}>
         <p>From design to development and everything inbetween. </p>
-        <p>I've got you covered.</p>
         </div>
         <Link className={indexStyle.buttonWhite} to="/contact">Contact me</Link>
         <a className={indexStyle.arrowAnimation}href="#second_section"><div className={indexStyle.arrow}></div></a>
@@ -46,7 +45,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="third">
+    <section id="third_section" className="third">
       <div className={indexStyle.workContainer}>
         <WorkText 
         title="Dormy" 
@@ -59,10 +58,10 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="fourth">
+    <section id="fourth_section" className="fourth">
       <div className={indexStyle.workContainer}>
         <WorkText 
-        title="Parkspot (WIP)" 
+        title="Parkspot" 
         intro="A project where teams from Ghent, Stuttgart and Amsterdam work on solutions for the traffic problem in big cities. 
         I'm one of the 3 students that represents Ghent and we're currently working on an app that guides you to a parking spot of your preference."
         description="First you enter your destination. Then you apply the filters you want: free parking, outside LEZ, edge of the city, etc. 
