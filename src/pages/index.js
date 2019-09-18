@@ -8,12 +8,12 @@ import SEO from "../components/seo"
 
 import indexStyle from "./index.module.css"
 
-import dormy1 from "../images/work1_0.png"
-import dormy2 from "../images/work1_1.png"
-import moodify1 from "../images/work2_1.png"
-import moodify2 from "../images/work2_0.png"
-import parkspot1 from "../images/work3_0.png"
-import parkspot2 from "../images/work3_1.png"
+import dormy1 from "../images/work1_0.jp2"
+import dormy2 from "../images/work1_1.jp2"
+import moodify1 from "../images/work2_1.jp2"
+import moodify2 from "../images/work2_0.jp2"
+import parkspot1 from "../images/work3_0.jp2"
+import parkspot2 from "../images/work3_1.jp2"
 
 const IndexPage = () => (
   <Layout>
