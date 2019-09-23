@@ -8,12 +8,14 @@ import SEO from "../components/seo"
 
 import indexStyle from "./index.module.css"
 
-import dormy1 from "../images/work1_0.jpg"
-import dormy2 from "../images/work1_1.jpg"
-import moodify1 from "../images/work2_1.jpg"
-import moodify2 from "../images/work2_0.jpg"
-import parkspot1 from "../images/work3_0.jpg"
-import parkspot2 from "../images/work3_1.jpg"
+import dormy1 from "../images/work1_0.png"
+import dormy2 from "../images/work1_1.png"
+import moodify1 from "../images/work2_1.png"
+import moodify2 from "../images/work2_0.png"
+import parkspot1 from "../images/work3_0.png"
+import parkspot2 from "../images/work3_1.png"
+import tmaas1 from "../images/work4_0.png"
+import tmaas2 from "../images/work4_1.png"
 
 const IndexPage = () => (
   <Layout>
@@ -32,6 +34,36 @@ const IndexPage = () => (
     <section id="second_section" className="second">
       <div className={indexStyle.workContainer}>
         <WorkText 
+        title="Parkspot" 
+        intro="A project where teams from Ghent, Stuttgart and Amsterdam work on solutions for the traffic problem in big cities. 
+        I'm one of the 3 students that represented Ghent and we worked on developing an app that guides you to a parking spot of your preference."
+        description="First you enter your destination. Then you apply the filters you want: free parking, outside LEZ, edge of the city, etc. 
+        The app then gives you the available options for your liking. If you chose a parking spot that's not close enough to your destination to walk, there will be suggestions like busses or trams."
+        tech="This project is built using React Native, MongoDB and open data."
+        btnStyle={indexStyle.buttonBlack}
+        github="https://github.com/parkspot/parkspot-3"/>
+        <WebWork image1={parkspot1} image2={parkspot2}/>
+      </div>
+    </section>
+
+    <section id="third_section" className="third">
+      <div className={indexStyle.workContainer}>
+        <WorkText 
+        title="Road Report" 
+        intro="During the summer of 2019 I attended Open Summer of Code. At oSoc19 I was part of a team that worked 
+        on an app where citizens of Ghent could report problems with sidewalks and cycling paths."
+        description="Together with our client TMAAS we made a react native app with a php backend."
+        tech="Made using React Native and Firebase."
+        btnStyle={indexStyle.buttonWhite}
+        github="https://github.com/oSoc19/RoadReport"
+        />
+        <WebWork image1={tmaas1} image2={tmaas2}/>
+      </div>
+    </section>
+
+    <section id="fourth_section" className="fourth">
+      <div className={indexStyle.workContainer}>
+        <WorkText 
         title="Moodify" 
         intro="For our Mobile Development class we needed to make a mood app. 
         Me and my group wanted to make a mood app that's different from others, so we started brainstorming."
@@ -45,7 +77,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="third_section" className="third">
+    <section id="fifth_section" className="fifth">
       <div className={indexStyle.workContainer}>
         <WorkText 
         title="Dormy" 
@@ -53,23 +85,8 @@ const IndexPage = () => (
         This was the first application I built using NodeJs. It was very hard, but I learned a lot."
         tech="This web app was made using NodeJs and Firebase."
         btnStyle={indexStyle.buttonWhite}
-        github="https://github.com/gdmgent-1819-mobdev1/mobdev1-project-gdm-1718-jantemme"/>
+        github="https://github.com/gdmgent-1819-mobdev1/mobdev1-project-herkansing-gdm-1718-jantemme"/>
         <WebWork image1={dormy1} image2={dormy2}/>
-      </div>
-    </section>
-
-    <section id="fourth_section" className="fourth">
-      <div className={indexStyle.workContainer}>
-        <WorkText 
-        title="Parkspot" 
-        intro="A project where teams from Ghent, Stuttgart and Amsterdam work on solutions for the traffic problem in big cities. 
-        I'm one of the 3 students that represents Ghent and we're currently working on an app that guides you to a parking spot of your preference."
-        description="First you enter your destination. Then you apply the filters you want: free parking, outside LEZ, edge of the city, etc. 
-        The app then gives you the available options for your liking. If you chose a parking spot that's not close enough to your destination to walk, there will be suggestions like busses or trams."
-        tech="This project is being built using React Native, MongoDB and open data."
-        btnStyle={indexStyle.buttonBlack}
-        github="https://github.com/parkspot/parkspot-3"/>
-        <WebWork image1={parkspot1} image2={parkspot2}/>
       </div>
     </section>
   </Layout>

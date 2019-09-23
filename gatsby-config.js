@@ -4,15 +4,23 @@ module.exports = {
     title: `Jan Temmerman`,
     description: `Portfolio website of Jan Temmerman`,
     author: `@jantemmerman`,
-    siteUrl: `https://www.jantemmerman.ga`,
+    siteUrl: `https://www.jantemmerman.com`,
   },
-  plugins: [`gatsby-plugin-sitemap`],
+  plugins: [`gatsby-plugin-sitemap`, `gatsby-transformer-sharp`],
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
         trackingId: "UA-139325644-1",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 75,
       },
     },
   ],
@@ -26,8 +34,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

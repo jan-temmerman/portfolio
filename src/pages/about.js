@@ -29,7 +29,7 @@ const IndexPage = () => (
             </p>
 
             <p className={contactStyle.intro}>
-                Good news! I got selected for <a href="https://2019.summerofcode.be/" className={contactStyle.download} >Open Summer Of Code 2019</a>!
+                <a href="https://2019.summerofcode.be/" className={contactStyle.download} >Open Summer Of Code 2019</a> was awesome! Looking forward to attending next year.
             </p>
 
             <p className={contactStyle.intro}>
