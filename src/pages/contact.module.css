@@ -2,6 +2,7 @@
     font-weight: 700;
     font-size: 7vw;
     margin: 0;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -13,6 +14,8 @@
 }
 
 .container {
+    width: 100%;
+    height: 100%; 
     padding-bottom: 5vh;
     align-self: center;
     text-align: center;
@@ -62,7 +65,33 @@
     background-size: cover;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+}
 
+.photo {
+    background-image: url("../images/ski_resort.jpeg");
+    height: 400px;
+    width: 60%;
+    border-radius: 1px;
+    margin: 20px auto;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .photo {
+        height: 400px;
+        width: 95%;
+
+
+    }
+}
+
+.countdown {
+    width: 400px;
+    height: 400px;
 }
 
 .icon:hover {

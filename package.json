@@ -16,9 +16,13 @@
     "gatsby-source-filesystem": "^2.0.32",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-countdown-now": "^2.1.1",
     "react-dom": "^16.8.6",
+    "react-fundraising-countdown": "0.0.17",
     "react-helmet": "^5.2.0",
-    "smoothscroll-polyfill": "^0.4.4"
+    "reactjs-countdown": "0.0.8",
+    "smoothscroll-polyfill": "^0.4.4",
+    "x-react-flipclock": "^0.1.184153"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",

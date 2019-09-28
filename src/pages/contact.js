@@ -9,7 +9,7 @@ import linkedin from "../images/linkedin.png"
 import github from "../images/github.png"
 import facebook from "../images/facebook.png"
 
-const IndexPage = () => (
+const ContactPage = () => (
   <Layout>
     <SEO title="Contact" keywords={[`Jan Temmerman`, `portfolio`, `contact`]} description="Portfolio website of jan temmerman, contact"/>
     <section className="centered">
@@ -40,4 +40,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default ContactPage

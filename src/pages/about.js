@@ -8,7 +8,7 @@ import contactStyle from "./contact.module.css"
 import linkedin from "../images/linkedin.png"
 import resume from "../images/resume.pdf"
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout>
     <SEO title="About" keywords={[`Jan Temmerman`, `portfolio`, `about`]} description="Portfolio website of jan temmerman, about"/>
     <section className="centered">
@@ -46,4 +46,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default AboutPage

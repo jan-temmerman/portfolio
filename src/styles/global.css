@@ -29,6 +29,10 @@ td {
     padding: 10px;
   }
 
+  p {
+      font-size: 20px;
+  }
+
 .centered {
     padding-top: 8vh;
     background-color: black;
