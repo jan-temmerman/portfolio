@@ -77,3 +77,8 @@ td {
         justify-content: flex-start;
     }
 }
+
+#ibite_animation {
+    width: 400px;
+    height: 400px;
+}

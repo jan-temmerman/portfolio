@@ -10,7 +10,7 @@ import resume from "../images/resume.pdf"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" keywords={[`Jan Temmerman`, `portfolio`, `about`]} description="Portfolio website of jan temmerman, about"/>
+    <SEO title="About" keywords={[`Jan Temmerman`, `portfolio`, `about`]} description="Portfolio website of Jan Temmerman, about"/>
     <section className="centered">
         <div className={contactStyle.container}>
 
@@ -23,8 +23,8 @@ const AboutPage = () => (
 
             <div className={contactStyle.profilepic} ></div>
 
-            <p className={contactStyle.intro}>I have knowledge of <b>HTML</b>, <b>CSS</b>, <b>JS</b>, <b>PHP</b>, <b>SQL</b>. 
-                For projects I have worked with <b>React Native</b> and <b>Laravel</b>.
+            <p className={contactStyle.intro}>I have knowledge of <b>HTML</b>, <b>CSS</b>, <b>JS</b>, <b>TS</b>, <b>PHP</b>, <b>SQL</b>. 
+                For projects I have worked with <b>React</b>, <b>React Native</b>, <b>Laravel</b> and <b>Symfony</b>.
                 Every project is managed using <b>Git</b> source control.
             </p>
 
