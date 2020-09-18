@@ -29,15 +29,11 @@ const AboutPage = () => (
             </p>
 
             <p className={contactStyle.intro}>
-                <a href="https://2019.summerofcode.be/" className={contactStyle.download} >Open Summer Of Code 2019</a> was awesome! Looking forward to attending next year.
-            </p>
-
-            <p className={contactStyle.intro}>
                 <a href={resume} className={contactStyle.download} >Take a peek at my CV</a> or learn more about me on LinkedIn.
             </p>
 
             <div className={contactStyle.iconContainer}>
-                <a href="https://www.linkedin.com/in/jan-temmerman-896b07146/">
+                <a href="https://www.linkedin.com/in/💻-jan-temmerman-896b07146">
                     <img className={contactStyle.icon} src={linkedin} alt="linkedin"/>
                 </a>
             </div>

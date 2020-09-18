@@ -15,7 +15,7 @@ const ContactPage = () => (
     <section className="centered">
       <div className={contactStyle.container}>
         <h1 className={contactStyle.greet}>Contact</h1>
-        <p className={contactStyle.intro}>Feel free to send me a mail, message me on Facebook or check out my projects on Github!</p>
+        <p className={contactStyle.intro}>Feel free to send me a mail, message me on LinkedIn or check out my projects on Github!</p>
         <table>
           <tr>
               <td>Mail</td>
@@ -25,11 +25,8 @@ const ContactPage = () => (
           </tr>
         </table>
         <div className={contactStyle.iconContainer}>
-            <a href="https://www.linkedin.com/in/jan-temmerman-896b07146/">
+            <a href="https://www.linkedin.com/in/💻-jan-temmerman-896b07146">
                 <img className={contactStyle.icon} src={linkedin} alt="linkedin"/>
-            </a>
-            <a href="https://www.facebook.com/jan.temmerman.5">
-            <img className={contactStyle.icon} src={facebook} alt="facebook"/>
             </a>
             <a href="https://github.com/gdm-1718-jantemme">
             <img className={contactStyle.icon} src={github} alt="github"/>

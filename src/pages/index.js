@@ -34,12 +34,12 @@ const IndexPage = () => (
     <section id="second_section" className="second">
       <div className={indexStyle.workContainer}>
         <WorkText 
-        title="Trashpanda (WIP)" 
-        intro="For my thesis i wanted to help the people who go out and clean the littered nature and streets in their free time.
+        title="Trashpanda" 
+        intro="For my thesis I wanted to help the people who go out and clean the littered nature and streets in their free time.
         I am building an app with which they can track and log their runs and how much litter they pick up. I also want to use the 
         data they generate to show the world how much thrash we just throw on the streets."
         description="When you start a run, you can add items by telling the app what you're picking up or by just typing. You can also add a picture to the items."
-        tech="This project is being built using React Native (Typescript) and Firebase."
+        tech="This project was built using React Native and Firebase."
         btnStyle={indexStyle.buttonBlack}
         github="https://github.com/gdm-1718-jantemme/Trashpanda-app"/>
         <WebWork image1={trashpanda1} image2={trashpanda2}/>
@@ -70,7 +70,7 @@ const IndexPage = () => (
         I recently rebuilt this project using typescript, I used better components and improved some features."
         description="First you enter your destination. Then you apply the filters you want: free parking, outside LEZ, edge of the city, etc. 
         The app then gives you the available options for your liking. If you chose a parking spot that's not close enough to your destination to walk, there will be suggestions like busses or trams."
-        tech="This project is built using React Native, MongoDB and open data."
+        tech="This project was built using React Native, MongoDB and open data."
         btnStyle={indexStyle.buttonBlack}
         github="https://github.com/undefined-nmd/Parkspot"/>
         <WebWork image1={parkspot1} image2={parkspot2}/>
